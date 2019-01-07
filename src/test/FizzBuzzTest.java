@@ -39,4 +39,16 @@ public class FizzBuzzTest {
         String message = FizzBuzz.message(30);
         assertEquals("fizzbuzz", message);
     }
+
+    @Test
+    public void testReturnsNumberFor2() {
+        String message = FizzBuzz.message(2);
+        assertEquals("2", message);
+    }
+
+    @Test
+    public void testReturnsNumberFor16() {
+        String message = FizzBuzz.message(16);
+        assertEquals("16", message);
+    }
 }
