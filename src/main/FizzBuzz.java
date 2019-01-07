@@ -9,6 +9,9 @@ public class FizzBuzz {
         if (number % 5 == 0) {
             message += "buzz";
         }
+        if (message == "") {
+            message = Integer.toString(number);
+        }
         return message;
     }
 }
