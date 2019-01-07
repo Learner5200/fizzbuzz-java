@@ -21,4 +21,10 @@ public class FizzBuzzTest {
         String message = FizzBuzz.message(5);
         assertEquals("buzz", message);
     }
+
+    @Test
+    public void testBuzzesFor35() {
+        String message = FizzBuzz.message(35);
+        assertEquals("buzz", message);
+    }
 }
